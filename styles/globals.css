@@ -7,8 +7,8 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 * {
@@ -167,18 +167,16 @@ h5 {
   background-color: rgb(109, 51, 109);
   font-size: 30px;
   height: 50px;
-  width: 50px;
   color: white;
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
 
 .slider-number {
   background-color: rgb(234, 234, 234);
   font-size: 30px;
   height: 50px;
-  width: 50px;
   color: black;
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
 
 .illustration-img-img {

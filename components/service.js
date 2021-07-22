@@ -1,4 +1,5 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 
 function Service() {
   return (
@@ -9,7 +10,7 @@ function Service() {
           className="col-lg-4 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
-          <img src="/assets/img/design1.jpg" alt="..." className="w-100" />
+          <Image src="/assets/img/design1.jpg" alt="..." className="w-100" />
           <br />
           <br />
           <h4>Designing</h4>
@@ -22,7 +23,7 @@ function Service() {
           className="col-lg-4 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
-          <img src="/assets/img/design2.jpg" alt="..." className="w-100" />
+          <Image src="/assets/img/design2.jpg" alt="..." className="w-100" />
           <br />
           <br />
           <h4>Turnkey Projects</h4>
@@ -35,7 +36,7 @@ function Service() {
           className="col-lg-4 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
-          <img
+          <Image
             src="/assets/img/modular-furniture.jpg"
             alt="..."
             className="w-100"
@@ -52,7 +53,7 @@ function Service() {
           className="col-md-4 col-sm-6 col-6 text-center py-3"
           data-aos="fade-up"
         >
-          <img src="/assets/img/civil-work.png" alt="..." />
+          <Image src="/assets/img/civil-work.png" alt="..." />
           <br />
           <h4>Civil Work</h4>
         </div>
@@ -60,7 +61,7 @@ function Service() {
           className="col-md-4 col-sm-6 col-6 text-center py-3"
           data-aos="fade-up"
         >
-          <img src="/assets/img/electrical.png" alt="..." />
+          <Image src="/assets/img/electrical.png" alt="..." />
           <br />
           <h4>Electrical</h4>
         </div>
@@ -68,7 +69,7 @@ function Service() {
           className="col-md-4 col-sm-6 col-6 text-center py-3"
           data-aos="fade-up"
         >
-          <img src="/assets/img/painting.png" alt="..." />
+          <Image src="/assets/img/painting.png" alt="..." />
           <br />
           <h4>Painting</h4>
         </div>
@@ -76,7 +77,7 @@ function Service() {
           className="col-md-4 col-sm-6 col-6 text-center py-3"
           data-aos="fade-up"
         >
-          <img src="/assets/img/false-ceiling.png" alt="..." />
+          <Image src="/assets/img/false-ceiling.png" alt="..." />
           <br />
           <h4>False Ceiling</h4>
         </div>
@@ -84,7 +85,7 @@ function Service() {
           className="col-md-4 col-sm-6 col-6 text-center py-3"
           data-aos="fade-up"
         >
-          <img src="/assets/img/plumbing.png" alt="..." />
+          <Image src="/assets/img/plumbing.png" alt="..." />
           <br />
           <h4>Plumbing</h4>
         </div>
@@ -92,7 +93,7 @@ function Service() {
           className="col-md-4 col-sm-6 col-6 text-center py-3"
           data-aos="fade-up"
         >
-          <img src="/assets/img/flooring.png" alt="..." />
+          <Image src="/assets/img/flooring.png" alt="..." />
           <br />
           <h4>Floor and wall tiling</h4>
         </div>

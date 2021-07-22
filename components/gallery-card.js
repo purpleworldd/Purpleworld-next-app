@@ -1,10 +1,11 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 import Link from "next/link";
 function GalleryCard(props) {
   return (
     <div className="card-out col-md-4 col-sm-6 my-3" data-aos="fade-up">
       <div className="card shadow">
-        <img
+        <Image
           src={props.cardImage}
           width="100"
           className="card-img-top"
@@ -12,9 +13,9 @@ function GalleryCard(props) {
         />
         <div className="card-body text-center">
           <h3 className="pb-3">{props.name}</h3>
-          <Link href={props.linkad} className="btn btn-outline-secondary">
-            Learn More
-          </Link>
+          <span className="btn btn-outline-secondary">
+            <Link href={props.linkad}>Learn More</Link>
+          </span>
         </div>
       </div>
     </div>

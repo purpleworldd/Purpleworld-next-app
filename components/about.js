@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-// import abtImg from "/assets/img/yellowroom.jpg";
+import { Image } from "react-bootstrap";
 function About() {
   return (
     <section id="about" className="container">
@@ -50,7 +50,7 @@ function About() {
           </div>
         </div>
         <div className="col-12 col-lg-6" data-aos="fade-up">
-          <img
+          <Image
             src="/assets/img/yellowroom.jpg"
             className="w-100 h-100 img-fluid shadow"
             alt="..."

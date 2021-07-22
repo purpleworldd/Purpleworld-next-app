@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { Image } from "react-bootstrap";
 const abtImg = "/assets/img/detail-img1.jpg";
 const century_ply = "/assets/img/century_ply.png";
 const hettich = "/assets/img/hettich.png";
@@ -54,7 +55,7 @@ function Details() {
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <img src={abtImg} className="w-100 h-100 img-fluid" alt="..." />
+            <Image src={abtImg} className="w-100 h-100 img-fluid" alt="..." />
           </div>
         </div>
         <div>
@@ -64,22 +65,32 @@ function Details() {
           <h1 className="text-center py-5">We work with the best</h1>
           <div className="row self-align-center">
             <div className="col-md-3 col-sm-6 col-6">
-              <img src={century_ply} width="200" alt="..." className="col-12" />
+              <Image
+                src={century_ply}
+                width="200"
+                alt="..."
+                className="col-12"
+              />
             </div>
             <div className="col-md-3 col-sm-6 col-6">
-              <img src={hettich} width="200" alt="..." className="col-12" />
+              <Image src={hettich} width="200" alt="..." className="col-12" />
             </div>
             <div className="col-md-3 col-sm-6 col-6">
-              <img src={asianpaints} width="200" alt="..." className="col-12" />
+              <Image
+                src={asianpaints}
+                width="200"
+                alt="..."
+                className="col-12"
+              />
             </div>
             <div className="col-md-3 col-sm-6 col-6">
-              <img src={bosch} width="200" alt="..." className="col-12" />
+              <Image src={bosch} width="200" alt="..." className="col-12" />
             </div>
             <div className="col-md-3 col-sm-6 col-6">
-              <img src={fabindia} width="200" alt="..." className="col-12" />
+              <Image src={fabindia} width="200" alt="..." className="col-12" />
             </div>
             <div className="col-md-3 col-sm-6 col-6">
-              <img
+              <Image
                 src={gulmohar_lane}
                 width="200"
                 alt="..."
@@ -87,13 +98,13 @@ function Details() {
               />
             </div>
             <div className="col-md-3 col-sm-6 col-6">
-              <img src={jaquar} width="200" alt="..." className="col-12" />
+              <Image src={jaquar} width="200" alt="..." className="col-12" />
             </div>
             <div className="col-md-3 col-sm-6 col-6">
-              <img src={philips} width="200" alt="..." className="col-12" />
+              <Image src={philips} width="200" alt="..." className="col-12" />
             </div>
             <div className="col-md-3 col-sm-6 col-6">
-              <img
+              <Image
                 src={saint_gobain}
                 width="200"
                 alt="..."
@@ -101,7 +112,7 @@ function Details() {
               />
             </div>
             <div className="col-md-3 col-sm-6 col-6">
-              <img src={siemens} width="200" alt="..." className="col-12" />
+              <Image src={siemens} width="200" alt="..." className="col-12" />
             </div>
           </div>
         </div>

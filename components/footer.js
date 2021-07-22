@@ -1,5 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebookF,
+  faInstagram,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   const refreshPage = () => {
     window.scrollTo(0, 0);
@@ -27,18 +33,18 @@ function Footer() {
               <h4 className="py-3">Follow Us </h4>
               <div className="row">
                 <div className="col">
-                  <a href="/#">
-                    <i className="fa fa-instagram fa-2x  text-white"></i>
+                  <a href="/" target="_blank">
+                    <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </div>
                 <div className="col">
-                  <a href="/#">
-                    <i className="fa fa-facebook-square fa-2x text-white"></i>
+                  <a href="/" target="_blank">
+                    <FontAwesomeIcon icon={faFacebookF} />
                   </a>
                 </div>
                 <div className="col">
-                  <a href="/#">
-                    <i className="fa fa-twitter fa-2x text-white"></i>
+                  <a href="/" target="_blank">
+                    <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
               </div>

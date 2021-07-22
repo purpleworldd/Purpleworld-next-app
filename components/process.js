@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Row, Col, Image, Badge } from "react-bootstrap";
 
 const signup = "/assets/steps/signup1.png";
 const visualize = "/assets/steps/visualize1.png";
@@ -48,225 +49,57 @@ function Process() {
       clearInterval(timer);
     };
   }, [currentImage, fade]);
+
+  function makeButton(index) {
+    return (
+      <div className="row text-center p-3" key={index}>
+        <Badge
+          pill
+          className={
+            currentImage >= index
+              ? "slider-number-active text-center py-1"
+              : "slider-number text-center"
+          }
+          onClick={() => {
+            setCurrentImage(index);
+            if (fade) {
+              document
+                .getElementById("animate-steps")
+                .classList.add("toggleIn");
+              document
+                .getElementById("animate-steps")
+                .classList.remove("toggleOut");
+            } else {
+              document
+                .getElementById("animate-steps")
+                .classList.add("toggleOut");
+              document
+                .getElementById("animate-steps")
+                .classList.remove("toggleIn");
+            }
+            setFade(!fade);
+          }}
+        >
+          {index + 1}
+        </Badge>
+      </div>
+    );
+  }
+
   return (
     <div className="container">
       <h1 className="text-center p-5">Lets start the journey </h1>
       <div className="">
-        <div className="row justify-content-center">
-          <div className="col-md-2 col-2  justify-content-center slider">
-            <div className="row text-center my-lg-5 my-sm-4 my-3 px-1">
-              <button
-                className={
-                  currentImage >= 0
-                    ? "slider-number-active text-center"
-                    : "slider-number text-center"
-                }
-                onClick={() => {
-                  setCurrentImage(0);
-                  if (fade) {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleIn");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleOut");
-                  } else {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleOut");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleIn");
-                  }
-                  setFade(!fade);
-                }}
-              >
-                1
-              </button>
-            </div>
-            <div className="row text-center my-lg-5 my-sm-4 my-3 px-1">
-              <button
-                className={
-                  currentImage >= 1
-                    ? "slider-number-active text-center"
-                    : "slider-number text-center"
-                }
-                onClick={() => {
-                  setCurrentImage(1);
-                  if (fade) {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleIn");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleOut");
-                  } else {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleOut");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleIn");
-                  }
-                  setFade(!fade);
-                }}
-              >
-                2
-              </button>
-            </div>
-            <div className="row text-center my-lg-5 my-sm-4 my-3 px-1">
-              <button
-                className={
-                  currentImage >= 2
-                    ? "slider-number-active text-center"
-                    : "slider-number text-center"
-                }
-                onClick={() => {
-                  setCurrentImage(2);
-                  if (fade) {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleIn");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleOut");
-                  } else {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleOut");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleIn");
-                  }
-                  setFade(!fade);
-                }}
-              >
-                3
-              </button>
-            </div>
-            <div className="row text-center my-lg-5 my-sm-4 my-3 px-1">
-              <button
-                className={
-                  currentImage >= 3
-                    ? "slider-number-active text-center"
-                    : "slider-number text-center"
-                }
-                onClick={() => {
-                  setCurrentImage(3);
-                  if (fade) {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleIn");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleOut");
-                  } else {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleOut");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleIn");
-                  }
-                  setFade(!fade);
-                }}
-              >
-                4
-              </button>
-            </div>
-            <div className="row text-center my-lg-5 my-sm-4 my-3 px-1">
-              <button
-                className={
-                  currentImage >= 4
-                    ? "slider-number-active text-center"
-                    : "slider-number text-center"
-                }
-                onClick={() => {
-                  setCurrentImage(4);
-                  if (fade) {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleIn");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleOut");
-                  } else {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleOut");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleIn");
-                  }
-                  setFade(!fade);
-                }}
-              >
-                5
-              </button>
-            </div>
-            <div className="row text-center my-lg-5 my-sm-4 my-3 px-1">
-              <button
-                className={
-                  currentImage >= 5
-                    ? "slider-number-active text-center"
-                    : "slider-number text-center"
-                }
-                onClick={() => {
-                  setCurrentImage(5);
-                  if (fade) {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleIn");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleOut");
-                  } else {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleOut");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleIn");
-                  }
-                  setFade(!fade);
-                }}
-              >
-                6
-              </button>
-            </div>
-            <div className="row text-center my-lg-5 my-sm-4 my-3 px-1">
-              <button
-                className={
-                  currentImage >= 6
-                    ? "slider-number-active text-center"
-                    : "slider-number text-center"
-                }
-                onClick={() => {
-                  setCurrentImage(6);
-                  if (fade) {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleIn");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleOut");
-                  } else {
-                    document
-                      .getElementById("animate-steps")
-                      .classList.add("toggleOut");
-                    document
-                      .getElementById("animate-steps")
-                      .classList.remove("toggleIn");
-                  }
-                  setFade(!fade);
-                }}
-              >
-                7
-              </button>
-            </div>
-          </div>
-          <div
-            className="col-md-6 col-10 text-center align-self-center"
+        <Row className="justify-content-center">
+          <Col md={1} xs={2} className="justify-content-center slider">
+            <Row className="text-center my-lg-5 my-sm-4 my-3">
+              {[...Array(7)].map((item, index) => makeButton(index))}
+            </Row>
+          </Col>
+          <Col
+            md={6}
+            xs={10}
+            className="text-center align-self-center"
             id="animate-steps"
           >
             <Steps
@@ -274,8 +107,8 @@ function Process() {
               description={descriptionarray[currentImage]}
               illustration={steparray[currentImage]}
             />
-          </div>
-        </div>
+          </Col>
+        </Row>
       </div>
     </div>
   );
@@ -289,9 +122,11 @@ function Steps({ heading, description, illustration }) {
       <h1>{heading}</h1>
       <p>{description}</p>
       <div className="illustration-img">
-        <img
+        <Image
           src={illustration}
           alt="step illustration"
+          height="100%"
+          width="100%"
           className="img-fluid illustration-img-img"
         />
       </div>

@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { Image } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 const testimonials01 = "/assets/bedroom_d/bd01.jpg";
 const testimonials02 = "/assets/bedroom_d/bd02.jpg";
@@ -76,8 +79,9 @@ function Testimonials() {
           <div className="card">
             <div className="row justify-content-center">
               <div className="carousel-control-prev">
-                <i
-                  className="fa fa-angle-left fa-4x"
+                <FontAwesomeIcon
+                  icon={faAngleLeft}
+                  className="fa-4x"
                   onClick={() => {
                     currentImage > 0
                       ? setCurrentImage(currentImage - 1)
@@ -97,11 +101,11 @@ function Testimonials() {
                     }
                     setFade(!fade);
                   }}
-                ></i>
+                />
               </div>
               <div className="col-md-8 col-12 text-center align-self-center">
                 <div className="pt-3" id="test">
-                  <img
+                  <Image
                     src={pearray[currentImage]}
                     alt="current"
                     className="align-self-center testimonial-img"
@@ -112,8 +116,9 @@ function Testimonials() {
                   </div>
                 </div>
                 <div className="carousel-control-next">
-                  <i
-                    className="fa fa-angle-right fa-4x"
+                  <FontAwesomeIcon
+                    icon={faAngleRight}
+                    className="fa-4x"
                     onClick={() => {
                       currentImage < 9
                         ? setCurrentImage(currentImage + 1)
@@ -135,7 +140,7 @@ function Testimonials() {
                       }
                       setFade(!fade);
                     }}
-                  ></i>
+                  />
                 </div>
               </div>
             </div>

@@ -1,11 +1,12 @@
 import React from "react";
+import { Image } from "react-bootstrap";
 function ValueProp() {
   return (
     <section className="conatiner">
       <div className="container text-center" data-aos="fade-up">
         <div className="row py-5">
           <div className="col-md-4 px-5">
-            <img src="/assets/img/d.png" />
+            <Image src="/assets/img/d.png" />
             <h3>DESIGN</h3>
             <p>
               We design by combining the esthetics of the space, functional
@@ -13,7 +14,7 @@ function ValueProp() {
             </p>
           </div>
           <div className="col-md-4 px-5">
-            <img src="/assets/img/ch.png" />
+            <Image src="/assets/img/ch.png" />
             <h3>TRUST</h3>
             <p>
               We are very transparent and ethical in all our interactions
@@ -21,7 +22,7 @@ function ValueProp() {
             </p>
           </div>
           <div className="col-md-4 px-5">
-            <img src="/assets/img/tec.png" />
+            <Image src="/assets/img/tec.png" />
             <h3>TECHNOLOGY</h3>
             <p>
               Our machines and design platform is the latest available in the
