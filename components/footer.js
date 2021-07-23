@@ -7,9 +7,6 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
-  const refreshPage = () => {
-    window.scrollTo(0, 0);
-  };
   return (
     <footer className="bg-dark text-light">
       <div className="container">
@@ -33,17 +30,17 @@ function Footer() {
               <h4 className="py-3">Follow Us </h4>
               <div className="row">
                 <div className="col">
-                  <a href="/" target="_blank">
+                  <a href="https://www.instagram.com/" target="_blank">
                     <FontAwesomeIcon icon={faInstagram} />
                   </a>
                 </div>
                 <div className="col">
-                  <a href="/" target="_blank">
+                  <a href="https://www.facebook.com/" target="_blank">
                     <FontAwesomeIcon icon={faFacebookF} />
                   </a>
                 </div>
                 <div className="col">
-                  <a href="/" target="_blank">
+                  <a href="https://twitter.com/" target="_blank">
                     <FontAwesomeIcon icon={faTwitter} />
                   </a>
                 </div>
@@ -62,7 +59,7 @@ function Footer() {
           <div className="col-md align-self-center text-center">
             <h4>Consult our Advisor</h4>
             <div>
-              <Link href="/contact" onClick={refreshPage}>
+              <Link href="/contact">
                 <button className="btn btn-outline-light rounded-pill px-5">
                   Contact
                 </button>
@@ -72,39 +69,22 @@ function Footer() {
           <div className="col-md text-center p-3 align-self-center">
             <h3 className="mb-3">Links</h3>
             <div>
-              <Link className="footer-links" href="/" onClick={refreshPage}>
+              <Link className="footer-links" href="/">
                 Home
               </Link>
             </div>
             <div>
-              <Link
-                className="footer-links"
-                href="/details"
-                onClick={refreshPage}
-              >
+              <Link className="footer-links" href="/details">
                 About
               </Link>
             </div>
             <div>
-              <Link
-                className="footer-links"
-                href="/image"
-                onClick={refreshPage}
-              >
+              <Link className="footer-links" href="/image">
                 Services
               </Link>
             </div>
-            {/* <div>
-              <Link className="footer-links" href="/faq" onClick={refreshPage}>
-                FAQs
-              </Link>
-            </div> */}
             <div>
-              <Link
-                className="footer-links"
-                href="/contact"
-                onClick={refreshPage}
-              >
+              <Link className="footer-links" href="/contact">
                 Contact
               </Link>
             </div>
