@@ -11,7 +11,7 @@ function Contact() {
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <h1>Let's get started</h1>
+            <h1>Let&apos;s get started</h1>
             <ContactForm />
           </div>
           <div className="col-sm-5 col-12 align-self-center">

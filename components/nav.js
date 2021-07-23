@@ -37,7 +37,7 @@ function Nav() {
           <div>
             <Link href="/contact">
               <Button variant="danger" className="rounded-pill px-5">
-                Let's get started
+                Let&apos;s get started
               </Button>
             </Link>
           </div>
