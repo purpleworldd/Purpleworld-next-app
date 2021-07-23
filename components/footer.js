@@ -1,11 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   return (
     <footer className="bg-dark text-light">
@@ -24,28 +18,6 @@ function Footer() {
               <br />
               info@purpleworld.com
             </p>
-          </div>
-          <div className="col-md align-self-center">
-            <div className="text-center p-3">
-              <h4 className="py-3">Follow Us </h4>
-              <div className="row">
-                <div className="col">
-                  <a href="https://www.instagram.com/" target="_blank">
-                    <FontAwesomeIcon icon={faInstagram} />
-                  </a>
-                </div>
-                <div className="col">
-                  <a href="https://www.facebook.com/" target="_blank">
-                    <FontAwesomeIcon icon={faFacebookF} />
-                  </a>
-                </div>
-                <div className="col">
-                  <a href="https://twitter.com/" target="_blank">
-                    <FontAwesomeIcon icon={faTwitter} />
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
           <div className="col-md align-self-center text-center p-3">
             <h4>Our Location </h4>
