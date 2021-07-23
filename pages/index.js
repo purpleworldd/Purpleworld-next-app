@@ -32,7 +32,7 @@ export default function Home() {
             250+ homes decorated
           </Col>
           <Col md={8} xs={7} className="text-center">
-            <Image fluid src="/assets/livingroom_d/lr08.jpg" alt="..." />
+            <Image fluid src="/assets/livingRoom_d/lr08.jpg" alt="..." />
           </Col>
         </Row>
       </Container>

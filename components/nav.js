@@ -8,7 +8,7 @@ function NavBar() {
       <Navbar bg="white" expand="lg" fixed="top" expanded={expanded}>
         <Container>
           <Navbar.Brand>
-            <Link href="/">
+            <Link href="/" role="button">
               <Image src="/assets/img/pw-logo.png" width="50px" alt="logo" />
             </Link>
           </Navbar.Brand>
