@@ -6,14 +6,14 @@ function About() {
     <section id="about" className="container">
       <div className="row">
         <div className="col-12 col-lg-6" data-aos="fade-up">
-          <h1 className="text-center p-3">Why Purple World?</h1>
+          <h1 className="text-center p-3 fw-bold">Why Purple World?</h1>
           <div className="fs-5 p-3">
-            <h4>Collaborative Consultant</h4>
+            <h4 className="fw-bold">Collaborative Consultant</h4>
             <p>
               Interior design will often embrace elements such as light, colour
               and the use of specific fabrics.
             </p>
-            <h4>Great designs</h4>
+            <h4 className="fw-bold">Great designs</h4>
             <p>
               {" "}
               At Purple World, we have moved past the notion of considering
@@ -23,14 +23,14 @@ function About() {
               to thrive, rejuvenate and eventually get in touch with their
               blissful self for a much more meaningful life.
             </p>
-            <h4>Best Raw Materials</h4>
+            <h4 className="fw-bold">Best Raw Materials</h4>
             <p>
               {" "}
               We understand you and your needs Understanding your personality,
               lifestyle, design preference and specific needs, we interpret your
               story and turn it to reality through design and delivery.
             </p>
-            <h4>Finest Installation</h4>
+            <h4 className="fw-bold">Finest Installation</h4>
             <p>
               {" "}
               We exceed expectations; our Designers &amp; Design Mentors with

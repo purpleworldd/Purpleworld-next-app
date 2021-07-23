@@ -11,12 +11,12 @@ function Footer() {
             <p>
               Call us
               <br />
-              +91 9999 999 999
+              +91 9632287903
               <br />
               <br />
               Email Us
               <br />
-              info@purpleworld.com
+              info@purpleworld.in
             </p>
           </div>
           <div className="col-md align-self-center text-center p-3">
@@ -25,7 +25,8 @@ function Footer() {
             <p>
               Purple World
               <br />
-              5th Main Road, Sector 7, HSR Layout, Bangalore – 560102.
+              Amarjyothi HBCS Layout, Intermediate Ring Road, Domlur, Bengaluru,
+              Karnataka 560071
             </p>
           </div>
           <div className="col-md align-self-center text-center">

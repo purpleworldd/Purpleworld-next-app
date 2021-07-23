@@ -12,18 +12,25 @@ const jaquar = "/assets/img/jaquar.png";
 const philips = "/assets/img/philips.png";
 const saint_gobain = "/assets/img/saint_gobain.png";
 const siemens = "/assets/img/siemens.png";
+const ebco = "/assets/img/ebco.png";
+const aristo = "/assets/img/aristo.png";
+const centuryLaminates = "/assets/img/century-laminates.png";
+const greenlam = "/assets/img/greenlam.png";
+const merino = "/assets/img/mernino.png";
+const greenply = "/assets/img/greenply.png";
+const hafele = "/assets/img/hafele.svg";
 import Process from "../components/process";
 function Details() {
   return (
     <section id="details">
-      <div className="container">
+      <div className="container my-5 py-5">
         <div className="row">
           <div
             className="col-12 col-xl-6"
             data-aos="fade-up"
             data-aos-duration="1500"
           >
-            <h1 className="text-center p-3">Why Purple World?</h1>
+            <h1 className="text-center fw-bold p-3">Why Purple World?</h1>
             <p className="fs-4 p-3">
               Interior design will often embrace elements such as light, colour
               and the use of specific fabrics. At Purple World, we have moved
@@ -63,7 +70,7 @@ function Details() {
         </div>
         <div className="container">
           <h1 className="text-center py-5">We work with the best</h1>
-          <div className="row self-align-center">
+          <div className="row self-align-center align-items-center">
             <div className="col-md-3 col-sm-6 col-6">
               <Image
                 src={century_ply}
@@ -113,6 +120,32 @@ function Details() {
             </div>
             <div className="col-md-3 col-sm-6 col-6">
               <Image src={siemens} width="200" alt="..." className="col-12" />
+            </div>
+            <div className="col-md-3 col-sm-6 col-6">
+              <Image src={hafele} width="200" alt="..." className="col-12" />
+            </div>
+            <div className="col-md-3 col-sm-6 col-6">
+              <Image src={ebco} width="200" alt="..." className="col-12" />
+            </div>
+            <div className="col-md-3 col-sm-6 col-6">
+              <Image src={aristo} width="200" alt="..." className="col-12" />
+            </div>
+            <div className="col-md-3 col-sm-6 col-6">
+              <Image
+                src={centuryLaminates}
+                width="200"
+                alt="..."
+                className="col-12"
+              />
+            </div>
+            <div className="col-md-3 col-sm-6 col-6">
+              <Image src={greenlam} width="200" alt="..." className="col-12" />
+            </div>
+            <div className="col-md-3 col-sm-6 col-6">
+              <Image src={merino} width="200" alt="..." className="col-12" />
+            </div>
+            <div className="col-md-3 col-sm-6 col-6">
+              <Image src={greenply} width="200" alt="..." className="col-12" />
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ function FAQs() {
   return (
     <section>
       <Container>
-        <h1 className="text-center p-3 mt-5 sec-head">FAQs</h1>
+        <h1 className="text-center fw-bold p-3 mt-5 sec-head">FAQs</h1>
         <Accordion>
           <Accordion.Item eventKey="0">
             <Accordion.Header>

@@ -74,7 +74,7 @@ function Testimonials() {
   return (
     <section>
       <div className="testimonial">
-        <h1 className="text-center p-3 mt-5 sec-head">Testimonials</h1>
+        <h1 className="text-center fw-bold p-3 mt-5 sec-head">Testimonials</h1>
         <div className="container" data-aos="fade-up">
           <div className="card">
             <div className="row justify-content-center">
@@ -111,7 +111,9 @@ function Testimonials() {
                     className="align-self-center testimonial-img"
                   />
                   <div className="card-body">
-                    <h5 className="card-title">{headarray[currentImage]}</h5>
+                    <h5 className="card-title fw-bold">
+                      {headarray[currentImage]}
+                    </h5>
                     <p className="card-text">{descarray[currentImage]}</p>
                   </div>
                 </div>

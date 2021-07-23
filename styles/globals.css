@@ -127,12 +127,19 @@ h5 {
 }
 .carousel-caption {
   font-size: 3rem;
-  bottom: 10vh;
+  padding-bottom: 5rem !important;
 }
+
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    font-size: 25px;
+    padding-bottom: 7rem !important;
+  }
+}
+
 .img-gradient {
-  height: 80vh;
+  height: 60vh;
   position: relative;
-  display: table;
   width: 100%;
   background-size: cover;
   background-position: center center;

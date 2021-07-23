@@ -3,7 +3,7 @@ import ContactForm from "./contact-form";
 function Contact() {
   return (
     <section id="contact">
-      <h1 className="text-center p-3 my-3 sec-head">Contact</h1>
+      <h1 className="text-center fw-bold p-3 my-3 sec-head">Contact</h1>
       <div className="bg-grade">
         <div className="row">
           <div

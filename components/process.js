@@ -88,7 +88,7 @@ function Process() {
 
   return (
     <div className="container">
-      <h1 className="text-center p-5">Lets start the journey </h1>
+      <h1 className="text-center fw-bold p-5">Lets start the journey </h1>
       <div className="">
         <Row className="justify-content-center">
           <Col md={1} xs={2} className="justify-content-center slider">
