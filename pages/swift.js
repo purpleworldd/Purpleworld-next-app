@@ -1,3 +1,4 @@
+import Head from "next/head";
 import {
   faCalendarCheck,
   faDraftingCompass,
@@ -14,6 +15,9 @@ import Process from "../components/process";
 function Swift() {
   return (
     <>
+      <Head>
+        <title>Swift | PurpleWorld</title>
+      </Head>
       <Main />
       <Container>
         <br />

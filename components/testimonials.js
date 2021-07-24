@@ -2,57 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Image } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
-
-const testimonials01 = "/assets/bedroom_d/bd01.jpg";
-const testimonials02 = "/assets/bedroom_d/bd02.jpg";
-const testimonials03 = "/assets/bedroom_d/bd03.jpg";
-const testimonials04 = "/assets/bedroom_d/bd04.jpg";
-const testimonials05 = "/assets/bedroom_d/bd05.jpg";
-const testimonials06 = "/assets/bedroom_d/bd06.jpg";
-const testimonials07 = "/assets/bedroom_d/bd07.jpg";
-const testimonials08 = "/assets/bedroom_d/bd08.jpg";
-const testimonials09 = "/assets/bedroom_d/bd09.jpg";
-const testimonials10 = "/assets/bedroom_d/bd10.jpg";
+import testimonialData from "../data/testimonials.json";
 
 function Testimonials() {
   const [fade, setFade] = useState(0);
   const [currentImage, setCurrentImage] = useState(0);
-  const pearray = [
-    testimonials01,
-    testimonials02,
-    testimonials03,
-    testimonials04,
-    testimonials05,
-    testimonials06,
-    testimonials07,
-    testimonials08,
-    testimonials09,
-    testimonials10,
-  ];
-  const headarray = [
-    "Person 1",
-    "Person 2",
-    "Person 3",
-    "Person 4",
-    "Person 5",
-    "Person 6",
-    "Person 7",
-    "Person 8",
-    "Person 9",
-    "Person 10",
-  ];
-  const descarray = [
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Adipiscing elit ut aliquam purus sit amet. Euismod in pellentesque massa placerat duis ultricies. Fermentum odio eu feugiat pretium nibh ipsum consequat. Morbi tristique senectus et netus. Mollis aliquam ut porttitor leo a. Hac habitasse platea dictumst vestibulum rhoncus est. Purus in mollis nunc sed id. Erat nam at lectus urna duis. Diam in arcu cursus euismod quis viverra.",
-    "Netus et malesuada fames ac. Enim ut sem viverra aliquet. Iaculis urna id volutpat lacus laoreet. Sagittis purus sit amet volutpat consequat mauris nunc. Sociis natoque penatibus et magnis dis parturient montes nascetur. Urna condimentum mattis pellentesque id nibh. Vulputate odio ut enim blandit. Nunc congue nisi vitae suscipit tellus. Lectus vestibulum mattis ullamcorper velit sed. Lobortis elementum nibh tellus molestie nunc non blandit. ",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Adipiscing elit ut aliquam purus sit amet. Euismod in pellentesque massa placerat duis ultricies. Fermentum odio eu feugiat pretium nibh ipsum consequat. Morbi tristique senectus et netus. Mollis aliquam ut porttitor leo a. Hac habitasse platea dictumst vestibulum rhoncus est. Purus in mollis nunc sed id. Erat nam at lectus urna duis. Diam in arcu cursus euismod quis viverra.",
-    "Netus et malesuada fames ac. Enim ut sem viverra aliquet. Iaculis urna id volutpat lacus laoreet. Sagittis purus sit amet volutpat consequat mauris nunc. Sociis natoque penatibus et magnis dis parturient montes nascetur. Urna condimentum mattis pellentesque id nibh. Vulputate odio ut enim blandit. Nunc congue nisi vitae suscipit tellus. Lectus vestibulum mattis ullamcorper velit sed. Lobortis elementum nibh tellus molestie nunc non blandit. ",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "Arcu vitae elementum curabitur vitae nunc sed velit dignissim sodales. Adipiscing elit ut aliquam purus sit amet. Euismod in pellentesque massa placerat duis ultricies. Fermentum odio eu feugiat pretium nibh ipsum consequat. Morbi tristique senectus et netus. Mollis aliquam ut porttitor leo a. Hac habitasse platea dictumst vestibulum rhoncus est. Purus in mollis nunc sed id. Erat nam at lectus urna duis. Diam in arcu cursus euismod quis viverra.",
-    "Netus et malesuada fames ac. Enim ut sem viverra aliquet. Iaculis urna id volutpat lacus laoreet. Sagittis purus sit amet volutpat consequat mauris nunc. Sociis natoque penatibus et magnis dis parturient montes nascetur. Urna condimentum mattis pellentesque id nibh. Vulputate odio ut enim blandit. Nunc congue nisi vitae suscipit tellus. Lectus vestibulum mattis ullamcorper velit sed. Lobortis elementum nibh tellus molestie nunc non blandit. ",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  ];
   useEffect(() => {
     let timer = setInterval(() => {
       setCurrentImage((prevCurrentImage) =>
@@ -106,15 +60,17 @@ function Testimonials() {
               <div className="col-md-8 col-12 text-center align-self-center">
                 <div className="pt-3" id="test">
                   <Image
-                    src={pearray[currentImage]}
+                    src={testimonialData[currentImage].image}
                     alt="current"
                     className="align-self-center testimonial-img"
                   />
                   <div className="card-body">
                     <h5 className="card-title fw-bold">
-                      {headarray[currentImage]}
+                      {testimonialData[currentImage].name}
                     </h5>
-                    <p className="card-text">{descarray[currentImage]}</p>
+                    <p className="card-text">
+                      {testimonialData[currentImage].text}
+                    </p>
                   </div>
                 </div>
                 <div className="carousel-control-next">

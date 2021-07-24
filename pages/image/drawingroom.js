@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import GalItem from "../../components/gal-item";
 import SimpleReactLightbox, { SRLWrapper } from "simple-react-lightbox";
 
@@ -24,7 +25,10 @@ function galleryitems(index) {
 
 function Drawingroom() {
   return (
-    <div className="container">
+    <div className="container py-5">
+      <Head>
+        <title>Gallery | PurpleWorld</title>
+      </Head>
       <div className="row" id="drawingroom">
         <div className="text-center">
           <h1 className="pt-5">Living Room</h1>

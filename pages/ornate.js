@@ -1,3 +1,4 @@
+import Head from "next/head";
 import {
   faCalendar,
   faEdit,
@@ -13,6 +14,9 @@ import Process from "../components/process";
 function Ornate() {
   return (
     <>
+      <Head>
+        <title>Ornate | PurpleWorld</title>
+      </Head>
       <Main />
       <Container>
         <br />

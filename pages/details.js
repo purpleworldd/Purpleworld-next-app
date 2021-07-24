@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 import { Image } from "react-bootstrap";
 const abtImg = "/assets/img/detail-img1.jpg";
 const century_ply = "/assets/img/century_ply.png";
@@ -23,6 +24,9 @@ import Process from "../components/process";
 function Details() {
   return (
     <section id="details">
+      <Head>
+        <title>About | PurpleWorld</title>
+      </Head>
       <div className="container my-5 py-5">
         <div className="row">
           <div
