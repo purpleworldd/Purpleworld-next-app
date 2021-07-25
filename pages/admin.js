@@ -17,26 +17,30 @@ function Redirect({ to }) {
 
 function Admin() {
   const { currentUser, logout } = useAuth();
-  if (!currentUser) {
-    return <Redirect to="/login" />;
-  }
 
   const [customers, setCustomers] = useState([]);
   const [loading, setLoading] = useState(false);
+
   const customerRef = firebase.firestore().collection("Customers");
 
   function getCustomers() {
-    setLoading(true);
-    customerRef.get().then((item) => {
-      const items = item.docs.map((doc) => doc.data());
-      setCustomers(items);
-      setLoading(false);
-    });
+    if (currentUser) {
+      setLoading(true);
+      customerRef.get().then((item) => {
+        const items = item.docs.map((doc) => doc.data());
+        setCustomers(items);
+        setLoading(false);
+      });
+    }
   }
 
   useEffect(() => {
     getCustomers();
   }, []);
+
+  if (!currentUser) {
+    return <Redirect to="/login" />;
+  }
 
   if (loading) {
     return (
