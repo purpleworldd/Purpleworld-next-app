@@ -7,10 +7,11 @@ import testimonialData from "../data/testimonials.json";
 function Testimonials() {
   const [fade, setFade] = useState(0);
   const [currentImage, setCurrentImage] = useState(0);
+  const n = testimonialData.length;
   useEffect(() => {
     let timer = setInterval(() => {
       setCurrentImage((prevCurrentImage) =>
-        prevCurrentImage === 9 ? 0 : prevCurrentImage + 1
+        prevCurrentImage === n - 1 ? 0 : prevCurrentImage + 1
       );
       if (fade) {
         document.getElementById("test").classList.add("toggleIn");
@@ -39,7 +40,7 @@ function Testimonials() {
                   onClick={() => {
                     currentImage > 0
                       ? setCurrentImage(currentImage - 1)
-                      : setCurrentImage(9);
+                      : setCurrentImage(n - 1);
                     if (fade) {
                       document.getElementById("test").classList.add("toggleIn");
                       document
@@ -59,11 +60,11 @@ function Testimonials() {
               </div>
               <div className="col-md-8 col-12 text-center align-self-center">
                 <div className="pt-3" id="test">
-                  <Image
+                  {/* <Image
                     src={testimonialData[currentImage].image}
                     alt="current"
                     className="align-self-center testimonial-img"
-                  />
+                  /> */}
                   <div className="card-body">
                     <h5 className="card-title fw-bold">
                       {testimonialData[currentImage].name}
@@ -78,7 +79,7 @@ function Testimonials() {
                     icon={faAngleRight}
                     className="fa-4x"
                     onClick={() => {
-                      currentImage < 9
+                      currentImage < n - 1
                         ? setCurrentImage(currentImage + 1)
                         : setCurrentImage(0);
                       if (fade) {

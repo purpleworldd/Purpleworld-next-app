@@ -3,12 +3,12 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDzV57-HwMoIHyA2flk0UgwvXxeAYmHRns",
-  authDomain: "purpleworld-66d62.firebaseapp.com",
-  projectId: "purpleworld-66d62",
-  storageBucket: "purpleworld-66d62.appspot.com",
-  messagingSenderId: "427802713636",
-  appId: "1:427802713636:web:8b8075d6d5d20de6c3c2b1",
+  apiKey: "AIzaSyCbF7puQwxzY0C5yQxDSEkwa6ptxjs9xYw",
+  authDomain: "purpleworld-30392.firebaseapp.com",
+  projectId: "purpleworld-30392",
+  storageBucket: "purpleworld-30392.appspot.com",
+  messagingSenderId: "782949271657",
+  appId: "1:782949271657:web:2557df44a05c65e743faf8",
 };
 
 if (!firebase.apps.length) {

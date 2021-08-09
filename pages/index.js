@@ -48,7 +48,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <FAQs />
+      {/* <FAQs /> */}
       <Testimonials />
       <Contact />
     </div>
