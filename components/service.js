@@ -7,7 +7,7 @@ function Service() {
       <h1 className="text-center fw-bold p-3 mt-5 sec-head">Our Services</h1>
       <div className="row">
         <div
-          className="col-lg-4 col-sm-12 col-12 text-center py-3"
+          className="col-lg-3 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
           <Image src="/assets/img/design1.jpg" alt="..." className="w-100" />
@@ -20,7 +20,7 @@ function Service() {
           </p>
         </div>
         <div
-          className="col-lg-4 col-sm-12 col-12 text-center py-3"
+          className="col-lg-3 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
           <Image src="/assets/img/design2.jpg" alt="..." className="w-100" />
@@ -33,7 +33,7 @@ function Service() {
           </p>
         </div>
         <div
-          className="col-lg-4 col-sm-12 col-12 text-center py-3"
+          className="col-lg-3 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
           <Image
@@ -48,6 +48,23 @@ function Service() {
             Our State of the art manufacturing facility has the most advanced
             machineries and stringent quality checks. We offer a 5 years
             warranty on all the products.
+          </p>
+        </div>
+        <div
+          className="col-lg-3 col-sm-12 col-12 text-center py-3"
+          data-aos="fade-up"
+        >
+          <Image
+            src="/assets/img/modular-furniture.jpg"
+            alt="..."
+            className="w-100"
+          />
+          <br />
+          <br />
+          <h4 className="fw-bold">Renovations</h4>
+          <p>
+            We are happy to renovate your home or any part of it. You can enjoy
+            your new home in quickest time.
           </p>
         </div>
         <div
