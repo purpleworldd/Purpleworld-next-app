@@ -65,7 +65,7 @@ function Testimonials() {
                     alt="current"
                     className="align-self-center testimonial-img"
                   /> */}
-                  <div className="card-body">
+                  <div className="card-body mx-auto w-50">
                     <h5 className="card-title fw-bold">
                       {testimonialData[currentImage].name}
                     </h5>

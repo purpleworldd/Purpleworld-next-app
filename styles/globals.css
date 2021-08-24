@@ -75,6 +75,7 @@ h5 {
 .cursive {
   font-style: italic;
   font-size: 22px;
+  color: gray;
 }
 
 .footer-links {
@@ -126,27 +127,30 @@ h5 {
   border-radius: 2%;
 }
 .carousel-caption {
-  font-size: 3rem;
+  font-size: 30px;
   padding-bottom: 5rem !important;
+}
+
+.img-gradient {
+  height: 75vh;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media screen and (max-width: 768px) {
   .carousel-caption {
     font-size: 25px;
-    padding-bottom: 7rem !important;
+    padding-bottom: 0rem !important;
   }
-  .masthead-content {
-    top: 0;
-    left: 0;
+  .img-gradient {
+    height: 40vh;
   }
 }
 
-.img-gradient {
-  height: 80vh;
-  position: relative;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
+.pw-head {
+  text-shadow: 2px 2px #2c2b2b;
 }
 
 /* .masthead-content {
@@ -202,6 +206,8 @@ h5 {
 .illustration-img-img {
   position: relative;
   display: table;
+  height: 100%;
+  width: 100%;
 }
 
 .fa-angle-right,

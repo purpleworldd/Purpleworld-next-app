@@ -54,11 +54,7 @@ function Service() {
           className="col-lg-3 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
-          <Image
-            src="/assets/img/modular-furniture.jpg"
-            alt="..."
-            className="w-100"
-          />
+          <Image src="/assets/img/renovation.jpg" alt="..." className="w-100" />
           <br />
           <br />
           <h4 className="fw-bold">Renovations</h4>
