@@ -30,7 +30,7 @@ export default function Home() {
           <Col
             md={4}
             xs={5}
-            className="text-center display-5 d-none d-sm-flex"
+            className="text-center display-5 d-none d-sm-flex fw-bold"
             data-aos="fade-up"
           >
             250+ homes decorated
@@ -38,13 +38,18 @@ export default function Home() {
           <Col
             md={4}
             xs={5}
-            className="text-center h3 d-flex d-sm-none"
+            className="text-center h3 d-flex d-sm-none fw-bold"
             data-aos="fade-up"
           >
             250+ homes decorated
           </Col>
           <Col md={8} xs={7} className="text-center" data-aos="fade-up">
-            <Image fluid src="/assets/livingRoom_d/lr08.jpg" alt="..." />
+            <Image
+              fluid
+              src="/assets/livingRoom_d/lr08.jpg"
+              alt="..."
+              className="shadow"
+            />
           </Col>
         </Row>
       </Container>

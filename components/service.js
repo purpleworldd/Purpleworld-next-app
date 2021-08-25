@@ -7,33 +7,33 @@ function Service() {
       <h1 className="text-center fw-bold p-3 mt-5 sec-head">Our Services</h1>
       <div className="row">
         <div
-          className="col-lg-4 col-sm-12 col-12 text-center py-3"
+          className="col-lg-3 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
           <Image src="/assets/img/design1.jpg" alt="..." className="w-100" />
           <br />
           <br />
           <h4 className="fw-bold">Designing</h4>
-          <p>
+          <p className="service-text">
             Our Design Partners are experts in converting your imaginations in
             workable designs. You will get what you visualize.
           </p>
         </div>
         <div
-          className="col-lg-4 col-sm-12 col-12 text-center py-3"
+          className="col-lg-3 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
           <Image src="/assets/img/design2.jpg" alt="..." className="w-100" />
           <br />
           <br />
           <h4 className="fw-bold">Turnkey Projects</h4>
-          <p>
+          <p className="service-text">
             Together the Operations team has experience of more than 1000+
             houses and 200+ years
           </p>
         </div>
         <div
-          className="col-lg-4 col-sm-12 col-12 text-center py-3"
+          className="col-lg-3 col-sm-12 col-12 text-center py-3"
           data-aos="fade-up"
         >
           <Image
@@ -44,10 +44,23 @@ function Service() {
           <br />
           <br />
           <h4 className="fw-bold">Modular Furniture</h4>
-          <p>
+          <p className="service-text">
             Our State of the art manufacturing facility has the most advanced
             machineries and stringent quality checks. We offer a 5 years
             warranty on all the products.
+          </p>
+        </div>
+        <div
+          className="col-lg-3 col-sm-12 col-12 text-center py-3"
+          data-aos="fade-up"
+        >
+          <Image src="/assets/img/renovation.jpg" alt="..." className="w-100" />
+          <br />
+          <br />
+          <h4 className="fw-bold">Renovations</h4>
+          <p className="service-text">
+            We are happy to renovate your home or any part of it. You can enjoy
+            your new home in quickest time.
           </p>
         </div>
         <div

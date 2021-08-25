@@ -8,46 +8,36 @@ function About() {
         <div className="col-12 col-lg-6" data-aos="fade-up">
           <h1 className="text-center p-3 fw-bold">Why Purple World?</h1>
           <div className="fs-5 p-3">
-            <h4 className="fw-bold">Collaborative Consultant</h4>
+            <h4 className="fw-bold">Collaborative Design Partners</h4>
             <p>
-              Interior design will often embrace elements such as light, colour
-              and the use of specific fabrics.
-            </p>
-            <h4 className="fw-bold">Great designs</h4>
-            <p>
-              {" "}
-              At Purple World, we have moved past the notion of considering
-              interiors to be just a decor addition to your home and entered a
-              realm where we now understand how your home can be turned into an
-              abode where you and your family does not just live; but are able
-              to thrive, rejuvenate and eventually get in touch with their
-              blissful self for a much more meaningful life.
+              We have moved past the notion of considering interiors to be just
+              a decor addition to your home and entered a realm where we now
+              understand how your home can be turned into an abode where you and
+              your family does not just live; but are able to thrive, rejuvenate
+              and eventually get in touch with their blissful self for a much
+              more meaningful life.
             </p>
             <h4 className="fw-bold">Best Raw Materials</h4>
             <p>
               {" "}
-              We understand you and your needs Understanding your personality,
-              lifestyle, design preference and specific needs, we interpret your
-              story and turn it to reality through design and delivery.
+              We work with industry leaders as their preferred partners. This
+              helps us procure the best material at the right price which helps
+              us keep our offerings competitive.
             </p>
             <h4 className="fw-bold">Finest Installation</h4>
             <p>
               {" "}
-              We exceed expectations; our Designers &amp; Design Mentors with
-              expertise strive for perfection at every step. More importantly,
-              we use only the best Superior quality materials for the best
-              design output and built with the best brand associations -
-              Hettich, Havells, Saint Gobain, etc with a team ensuring special
-              products at best prices.
+              Our installation and execution team focuses on craftsmanship in
+              every job they do. Each one has more than 5 years of experience.
             </p>
           </div>
-          <div className="text-center">
+          {/* <div className="text-center">
             <Link href="/details">
               <button className="btn btn-outline-secondary btn-lg mb-5">
                 Learn More
               </button>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="col-12 col-lg-6" data-aos="fade-up">
           <Image

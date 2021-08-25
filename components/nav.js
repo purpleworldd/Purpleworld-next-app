@@ -9,7 +9,7 @@ function NavBar() {
         <Container>
           <Navbar.Brand>
             <Link href="/" role="button">
-              <Image src="/assets/img/pw-logo.png" width="50px" alt="logo" />
+              <Image src="/assets/img/pw-logo_.jpeg" width="50px" alt="logo" />
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle

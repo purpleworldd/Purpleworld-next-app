@@ -10,17 +10,17 @@ function Gallery() {
         <GalleryCard
           cardImage="/assets/img/bed2.jpg"
           name="Bedroom"
-          linkad="/image/bedroom"
+          linkad="/gallery/bedroom"
         />
         <GalleryCard
           cardImage="/assets/img/sofa.jpg"
           name="Living Room"
-          linkad="/image/drawingroom"
+          linkad="/gallery/drawingroom"
         />
         <GalleryCard
           cardImage="/assets/img/kitchen.jpg"
           name="Kitchen"
-          linkad="/image/kitchen"
+          linkad="/gallery/kitchen"
         />
       </div>
     </section>

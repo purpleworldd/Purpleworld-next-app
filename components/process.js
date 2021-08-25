@@ -52,12 +52,14 @@ function Process() {
 
   function makeButton(index) {
     return (
-      <div className="row text-center p-3" key={index}>
-        <Badge
-          pill
+      <div
+        className="row text-center slider-button justify-content-center"
+        key={index}
+      >
+        <div
           className={
             currentImage >= index
-              ? "slider-number-active text-center py-1"
+              ? "slider-number-active py-1 text-center align-items-center justify-content-center"
               : "slider-number text-center"
           }
           onClick={() => {
@@ -81,7 +83,7 @@ function Process() {
           }}
         >
           {index + 1}
-        </Badge>
+        </div>
       </div>
     );
   }
@@ -91,8 +93,8 @@ function Process() {
       <h1 className="text-center fw-bold p-5">Lets start the journey </h1>
       <div className="">
         <Row className="justify-content-center">
-          <Col md={1} xs={2} className="justify-content-center slider">
-            <Row className="text-center my-lg-5 my-sm-4 my-3">
+          <Col lg={1} xs={2} className="justify-content-center slider">
+            <Row className="text-center justify-content-center">
               {[...Array(7)].map((item, index) => makeButton(index))}
             </Row>
           </Col>

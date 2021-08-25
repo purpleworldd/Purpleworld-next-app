@@ -9,7 +9,7 @@ function Footer() {
             <h4>Get in touch </h4>
             <br />
             <p>
-              Call us
+              Whatsapp us
               <br />
               +91 9632287903
               <br />
@@ -25,8 +25,8 @@ function Footer() {
             <p>
               Purple World
               <br />
-              Amarjyothi HBCS Layout, Intermediate Ring Road, Domlur, Bengaluru,
-              Karnataka 560071
+              No 531, Amarjyothi, Intermediate Ring Rd, Vyalikaval HBCS Layout,
+              Domlur, Bengaluru, Karnataka 560071
             </p>
           </div>
           <div className="col-md align-self-center text-center">
