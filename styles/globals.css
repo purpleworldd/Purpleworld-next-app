@@ -191,6 +191,7 @@ h5 {
   background-color: rgb(109, 51, 109);
   font-size: 30px;
   height: 50px;
+  width: 50px !important;
   color: white;
   border-radius: 50% !important;
 }
@@ -199,8 +200,19 @@ h5 {
   background-color: rgb(234, 234, 234);
   font-size: 30px;
   height: 50px;
+  width: 50px !important;
   color: black;
   border-radius: 50% !important;
+}
+
+.slider-button {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .slider-button {
+    padding: 0.5rem;
+  }
 }
 
 .illustration-img-img {
@@ -274,4 +286,8 @@ h5 {
   background-size: cover;
   background-position: center center;
   background-color: whitesmoke;
+}
+
+.service-text {
+  color: gray;
 }

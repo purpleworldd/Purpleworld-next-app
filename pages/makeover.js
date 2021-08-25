@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import {
   faHouseDamage,
   faDraftingCompass,
@@ -12,6 +13,12 @@ import { Col, Container, Row } from "react-bootstrap";
 import Contact from "../components/contact";
 import Main from "../components/home";
 import Process from "../components/process";
+
+const finishing = "/assets/img/finishing.jpg";
+const debris = "/assets/img/debris.jpg";
+const removal = "/assets/img/removal.jpg";
+const newdesign = "/assets/img/newdesign.jpg";
+const procure = "/assets/img/procure.jpg";
 
 function Makeover() {
   return (
@@ -27,52 +34,57 @@ function Makeover() {
         <h1 className="fw-bold text-center">Renovation Service: Makeover</h1>
         <Row className="justify-content-between">
           <Col lg={2} sm={6} xs={12} className="text-center h5">
-            <FontAwesomeIcon
+            <Image src={removal} alt="delivery" height={200} width={200} />
+            {/* <FontAwesomeIcon
               color="#0275d8"
               icon={faHouseDamage}
               size="10x"
               className="py-4"
-            />
+            /> */}
             <br />
             Removal of existing facilities/ items
           </Col>
           <Col lg={2} sm={6} xs={12} className="text-center h5">
-            <FontAwesomeIcon
+            <Image src={debris} alt="delivery" height={200} width={200} />
+            {/* <FontAwesomeIcon
               color="#0275d8"
               icon={faTrash}
               size="10x"
               className="py-4"
-            />
+            /> */}
             <br />
             Debris removal
           </Col>
           <Col lg={2} sm={6} xs={12} className="text-center h5">
-            <FontAwesomeIcon
+            <Image src={newdesign} alt="delivery" height={200} width={200} />
+            {/* <FontAwesomeIcon
               color="#0275d8"
               icon={faObjectUngroup}
               size="10x"
               className="py-4"
-            />
+            /> */}
             <br />
             New Design
           </Col>
           <Col lg={2} sm={6} xs={12} className="text-center h5">
-            <FontAwesomeIcon
+            <Image src={procure} alt="delivery" height={200} width={200} />
+            {/* <FontAwesomeIcon
               color="#0275d8"
               icon={faHandsHelping}
               size="10x"
               className="py-4"
-            />
+            /> */}
             <br />
             Assistance in procuring suitable items
           </Col>
           <Col lg={2} sm={6} xs={12} className="text-center h5">
-            <FontAwesomeIcon
+            <Image src={finishing} alt="delivery" height={200} width={200} />
+            {/* <FontAwesomeIcon
               color="#0275d8"
               icon={faDraftingCompass}
               size="10x"
               className="py-4"
-            />
+            /> */}
             <br />
             Execution as per design
           </Col>
