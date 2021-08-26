@@ -10,7 +10,7 @@ function ValueProp() {
             fluid
             src="/assets/img/design.png"
             alt="..."
-            className="align-self-center d-flex w-50 h-100 py-5"
+            className="align-self-center d-flex py-5 value-prop-image"
           />
         </Col>
 
@@ -19,7 +19,7 @@ function ValueProp() {
             fluid
             src="/assets/img/trust.png"
             alt="..."
-            className="align-self-center d-flex w-50 h-100 py-5"
+            className="align-self-center d-flex py-5 value-prop-image"
           />
         </Col>
 
@@ -28,25 +28,29 @@ function ValueProp() {
             fluid
             src="/assets/img/tech.png"
             alt="..."
-            className="d-flex align-self-center w-50 h-100 py-5"
+            className="d-flex align-self-center py-5 value-prop-image"
           />
         </Col>
 
         <Col xs={4}>
           <h3 className="d-none d-sm-block">DESIGN</h3>
-          <h6 className="d-block d-sm-none">DESIGN</h6>
-          <p>Functionality and esthetics are at core of our Designs</p>
+          <h6 className="fw-bold d-block d-sm-none">DESIGN</h6>
+          <p className="value-prop-text">
+            Functionality and esthetics are at core of our Designs
+          </p>
         </Col>
         <Col xs={4}>
           <h3 className="d-none d-sm-block">TRUST</h3>
-          <h6 className="d-block d-sm-none">TRUST</h6>
-          <p>We have built trust by Our transparent and ethical practices</p>
+          <h6 className="fw-bold d-block d-sm-none">TRUST</h6>
+          <p className="value-prop-text">
+            We have built trust by Our transparent and ethical practices
+          </p>
         </Col>
 
         <Col xs={4}>
           <h3 className="d-none d-sm-block">TECHNOLOGY</h3>
-          <h6 className="d-block d-sm-none">TECHNOLOGY</h6>
-          <p>
+          <h6 className="fw-bold d-block d-sm-none">TECHNOLOGY</h6>
+          <p className="value-prop-text">
             We use latest Machinery and tools across processes for great finesse
           </p>
         </Col>

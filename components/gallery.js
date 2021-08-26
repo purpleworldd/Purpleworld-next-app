@@ -8,12 +8,12 @@ function Gallery() {
       </h1>
       <div className="row">
         <GalleryCard
-          cardImage="/assets/img/bed2.jpg"
+          cardImage="/assets/img/bedroom.jpg"
           name="Bedroom"
           linkad="/gallery/bedroom"
         />
         <GalleryCard
-          cardImage="/assets/img/sofa.jpg"
+          cardImage="/assets/img/livingroom.jpg"
           name="Living Room"
           linkad="/gallery/drawingroom"
         />
