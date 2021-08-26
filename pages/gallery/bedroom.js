@@ -28,8 +28,8 @@ function Bedroom() {
       </Head>
       <div className="row" id="bedroom">
         <div className="text-center">
-          <h1 className="pt-5">Bedroom</h1>
-          <p className="cursive">
+          <h1 className="pt-5 rem-2">Bedroom</h1>
+          <p className="cursive rem-1">
             Wrap your tired eyes around this massive gallery of refreshing
             modern bedroom ideas and gorgeous bedroom accessories that are sure
             to wake you up. From ultra sleek minimalist style bedrooms to warm

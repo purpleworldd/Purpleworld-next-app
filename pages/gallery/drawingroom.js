@@ -31,8 +31,8 @@ function Drawingroom() {
       </Head>
       <div className="row" id="drawingroom">
         <div className="text-center">
-          <h1 className="pt-5">Living Room</h1>
-          <p className="cursive">
+          <h1 className="pt-5 rem-2">Living Room</h1>
+          <p className="cursive rem-1">
             The living room should be welcoming, well designed, comfortable and
             stylish enough to reflect your personality. All these come from
             furniture, lighting, curtains, wall decoration, etc. The interior

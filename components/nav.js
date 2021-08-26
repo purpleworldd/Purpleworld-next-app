@@ -41,7 +41,7 @@ function NavBar() {
                 </div>
               </Link>
 
-              <Link href="/image" role="button">
+              <Link href="/gallery" role="button">
                 <div
                   onClick={() => setExpanded(false)}
                   role="button"

@@ -151,15 +151,10 @@ h5 {
 
 .pw-head {
   text-shadow: 2px 2px #2c2b2b;
+  font-size: calc(1.625rem + 4.5vw);
+  line-height: 1.2;
+  padding-bottom: 3rem;
 }
-
-/* .masthead-content {
-  position: relative;
-  top: 5rem;
-  left: 25vw;
-  padding-left: 5rem;
-  font-size: 30px;
-} */
 
 #img-carousel-1 {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
@@ -209,9 +204,36 @@ h5 {
   padding: 1rem;
 }
 
+.value-prop-image {
+  width: 50%;
+  height: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .slider-button {
     padding: 0.5rem;
+  }
+  .value-prop-image {
+    width: 100%;
+  }
+  .rem-1 {
+    font-size: 1rem;
+  }
+  .rem-2 {
+    font-size: 2rem;
+  }
+  .pw-head {
+    font-size: calc(1.425rem + 2.1vw);
+    padding-bottom: 1rem;
+  }
+  .masthead-content {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .value-prop-text {
+    font-size: smaller;
   }
 }
 

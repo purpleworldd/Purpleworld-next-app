@@ -28,8 +28,8 @@ function Kitchen() {
       </Head>
       <div className="row" id="kitchen">
         <div className="text-center">
-          <h1 className="pt-5">Kitchen</h1>
-          <p className="cursive">
+          <h1 className="pt-5 rem-2">Kitchen</h1>
+          <p className="cursive rem-1">
             If your kitchen is indeed the heart of your home - or linked with
             your dining space - then you’ll want to fill it with the kind of
             luxury you’d expect at your very favourite restaurant. Our portfolio
