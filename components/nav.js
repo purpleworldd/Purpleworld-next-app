@@ -25,7 +25,7 @@ function NavBar() {
                 <div
                   onClick={() => setExpanded(false)}
                   role="button"
-                  className="nav-item fs-5 fw-bold px-3 py-2"
+                  className="nav-item fs-5 px-3 py-2"
                 >
                   HOME
                 </div>
@@ -35,7 +35,7 @@ function NavBar() {
                 <div
                   onClick={() => setExpanded(false)}
                   role="button"
-                  className="nav-item fs-5 fw-bold px-3 py-2"
+                  className="nav-item fs-5 px-3 py-2"
                 >
                   ABOUT{" "}
                 </div>
@@ -45,7 +45,7 @@ function NavBar() {
                 <div
                   onClick={() => setExpanded(false)}
                   role="button"
-                  className="nav-item fs-5 fw-bold px-3 py-2"
+                  className="nav-item fs-5 px-3 py-2"
                 >
                   GALLERY{" "}
                 </div>
@@ -54,7 +54,7 @@ function NavBar() {
                 <div
                   onClick={() => setExpanded(false)}
                   role="button"
-                  className="nav-item fs-5 fw-bold px-3 py-2"
+                  className="nav-item fs-5 px-3 py-2"
                 >
                   CONTACT{" "}
                 </div>
