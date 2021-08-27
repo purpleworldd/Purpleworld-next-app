@@ -54,7 +54,7 @@ export default function Home() {
         </Row>
       </Container>
       {/* <FAQs /> */}
-      {/* <Testimonials /> */}
+      <Testimonials />
       <Contact />
     </div>
   );

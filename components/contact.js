@@ -15,7 +15,10 @@ function Contact() {
             <ContactForm />
           </div>
           <div className="col-sm-5 col-12 align-self-center">
-            <h1 className="text-center text-white mt-5 mb-5" data-aos="fade">
+            <h1
+              className="text-center text-white mt-5 mb-5 d-none d-sm-block"
+              data-aos="fade"
+            >
               Consult Our Design Advisor
             </h1>
           </div>
