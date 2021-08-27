@@ -52,8 +52,8 @@ function Footer() {
                   </Link>
                 </div>
                 <div>
-                  <Link className="footer-links" href="/image">
-                    Services
+                  <Link className="footer-links" href="/gallery">
+                    Gallery
                   </Link>
                 </div>
                 <div>
