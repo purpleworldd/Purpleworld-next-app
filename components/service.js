@@ -15,7 +15,7 @@ function Service() {
           <br />
           <h4 className="fw-bold">Designing</h4>
           <p className="service-text">
-            Our Design Partners are experts in converting your imaginations in
+            Our design partners are experts in converting your imaginations in
             workable designs. You will get what you visualize.
           </p>
         </div>
@@ -28,7 +28,7 @@ function Service() {
           <br />
           <h4 className="fw-bold">Turnkey Projects</h4>
           <p className="service-text">
-            Together the Operations team has experience of more than 1000+
+            Together the operations team has experience of more than 1000+
             houses and 200+ years
           </p>
         </div>
@@ -45,7 +45,7 @@ function Service() {
           <br />
           <h4 className="fw-bold">Modular Furniture</h4>
           <p className="service-text">
-            Our State of the art manufacturing facility has the most advanced
+            Our state of the art manufacturing facility has the most advanced
             machineries and stringent quality checks. We offer a 5 years
             warranty on all the products.
           </p>
@@ -60,7 +60,7 @@ function Service() {
           <h4 className="fw-bold">Renovations</h4>
           <p className="service-text">
             We are happy to renovate your home or any part of it. You can enjoy
-            your new home in quickest time.
+            your new home in the quickest time.
           </p>
         </div>
         <div

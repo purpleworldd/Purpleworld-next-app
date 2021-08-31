@@ -18,6 +18,11 @@ function Footer() {
               Email Us
               <br />
               info@purpleworld.in
+              <br />
+              <br />
+              Website
+              <br />
+              purpleworld.in
             </p>
           </div>
           <div className="d-md-none d-block text-center">
@@ -36,6 +41,10 @@ function Footer() {
                     Email Us
                     <br />
                     info@purpleworld.in
+                    <br />
+                    Website
+                    <br />
+                    purpleworld.in
                   </p>
                 </div>
               </Col>
@@ -73,6 +82,14 @@ function Footer() {
               No 531, Amarjyothi, Intermediate Ring Rd, Vyalikaval HBCS Layout,
               Domlur, Bengaluru, Karnataka 560071
             </p>
+            <br className="d-sm-block d-none" />
+            <h4> Registered Office </h4>
+            <br className="d-sm-block d-none" />
+            <p>#34, BTM Residency, Phase 2, Yelanahalli, Bengaluru - 560068</p>
+            <div className="d-block d-md-none">
+              <h4 className="mb-3">Regional Offices:</h4>
+              <div>Hyderabad | New Delhi | Kolkata | Pune</div>
+            </div>
           </div>
           <div className="col-md align-self-center text-center">
             <h4>Consult our Advisor</h4>
@@ -82,6 +99,12 @@ function Footer() {
                   Contact
                 </button>
               </Link>
+            </div>
+            <br />
+            <h4>Services</h4>
+            <div>
+              Designing | Turnkey Projects | Modular Furniture | Renovations |
+              Civil | Electrical | Plumbing | Flooring | Wall Finishes
             </div>
           </div>
           <div className="col-md text-center p-3 align-self-center d-md-block d-none">
@@ -106,6 +129,9 @@ function Footer() {
                 Contact
               </Link>
             </div>
+            <br />
+            <h4 className="mb-3">Regional Offices:</h4>
+            <div>Hyderabad | New Delhi | Kolkata | Pune</div>
           </div>
         </div>
       </div>

@@ -36,14 +36,14 @@ function ValueProp() {
           <h3 className="d-none d-sm-block">DESIGN</h3>
           <h6 className="fw-bold d-block d-sm-none">DESIGN</h6>
           <p className="value-prop-text">
-            Functionality and esthetics are at core of our Designs
+            Functionality and aesthetics are at core of our designs
           </p>
         </Col>
         <Col xs={4}>
           <h3 className="d-none d-sm-block">TRUST</h3>
           <h6 className="fw-bold d-block d-sm-none">TRUST</h6>
           <p className="value-prop-text">
-            We have built trust by Our transparent and ethical practices
+            We have built trust by our transparent and ethical practices
           </p>
         </Col>
 
@@ -51,7 +51,7 @@ function ValueProp() {
           <h3 className="d-none d-sm-block">TECHNOLOGY</h3>
           <h6 className="fw-bold d-block d-sm-none">TECHNOLOGY</h6>
           <p className="value-prop-text">
-            We use latest Machinery and tools across processes for great finesse
+            We use latest machinery and tools across processes for great finesse
           </p>
         </Col>
       </Row>
