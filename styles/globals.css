@@ -212,6 +212,10 @@ h5 {
   height: 100%;
 }
 
+.rem-1 {
+  color: gray;
+}
+
 @media screen and (max-width: 768px) {
   .slider-button {
     padding: 0.5rem;

@@ -20,7 +20,7 @@ function Ornate() {
         <br />
         <br />
         <h1 className="fw-bold text-center display-4 pt-3 pb-5">
-          Lavish Service: Ornate
+          Custom Service: Ornate
         </h1>
         <Row>
           <Col sm={4} xs={12} className="text-center h5">
