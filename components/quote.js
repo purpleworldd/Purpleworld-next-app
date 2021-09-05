@@ -26,7 +26,7 @@ function Quote() {
             <Card.Img variant="top" src="/assets/livingRoom_d/lr05.jpg" />
             <Card.Body className="text-center">
               <Card.Title className="fw-bold">Ornate</Card.Title>
-              <Card.Text>Lavish service</Card.Text>
+              <Card.Text>Custom service</Card.Text>
               <Link href="/ornate">
                 <Button variant="outline-secondary">Learn More </Button>
               </Link>
