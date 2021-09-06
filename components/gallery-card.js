@@ -12,7 +12,7 @@ function GalleryCard(props) {
           alt="..."
         />
         <div className="card-body text-center">
-          <h3 className="pb-3 fw-bold">{props.name}</h3>
+          <h3 className="pb-3">{props.name}</h3>
           <span className="btn btn-outline-secondary">
             <Link href={props.linkad}>Learn More</Link>
           </span>

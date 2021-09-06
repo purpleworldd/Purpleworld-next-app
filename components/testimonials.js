@@ -14,7 +14,11 @@ function Testimonials() {
         <h1 className="text-center fw-bold p-3 mt-5 sec-head">Testimonials</h1>
         <Carousel>
           {testimonialData.map((item, index) => (
-            <Carousel.Item className="testimonial text-dark" key={index}>
+            <Carousel.Item
+              className="testimonial text-dark"
+              key={index}
+              interval={2500}
+            >
               <Carousel.Caption
                 className="px-3"
                 style={{ bottom: "0 !important", top: "1.25rem" }}

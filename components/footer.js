@@ -79,7 +79,7 @@ function Footer() {
             </p>
             <div className="d-block">
               <h4 className="mb-3">Cities we serve:</h4>
-              <div>Hyderabad | New Delhi | Kolkata | Pune</div>
+              <div>Bengaluru | Hyderabad | New Delhi | Kolkata | Pune</div>
             </div>
           </div>
           {/* <div className="col-md align-self-center text-center">
