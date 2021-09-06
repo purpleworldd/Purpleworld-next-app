@@ -8,15 +8,30 @@ import Testimonials from "../components/testimonials";
 import FAQs from "../components/faq";
 import Contact from "../components/contact";
 import Quote from "../components/quote";
-import { Col, Container, Image, Row } from "react-bootstrap";
+import { Alert, Col, Container, Image, Row } from "react-bootstrap";
+import { useState } from "react";
 
 export default function Home() {
+  const [popup, setPopup] = useState(true);
   return (
     <div>
       <Head>
         <title>Welcome to PurpleWorld</title>
       </Head>
       <Main />
+      <div>
+        <Alert
+          show={popup}
+          variant="primary"
+          className="quicksplained-popup px-5 text-center"
+          onClose={() => setPopup(false)}
+          dismissible
+          closeVariant="white"
+        >
+          <p className="text-black">Promo</p>
+          <div className="text-dark h3">Visit us for promo</div>
+        </Alert>
+      </div>
       <ValueProp />
       <Quote />
       <About />
