@@ -10,8 +10,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md text-center p-3 align-self-center d-md-block d-none">
-            <h4>Get in touch </h4>
-            <br />
+            <h4 className="py-2">Get in touch </h4>
             <p>
               <FontAwesomeIcon icon={faWhatsapp} />
               &nbsp; Whatsapp us
@@ -30,8 +29,7 @@ function Footer() {
             <Row>
               <Col className="align-self-center">
                 <div className="col-md text-center align-self-center">
-                  <h4>Get in touch </h4>
-                  <br />
+                  <h4 className="pb-2">Get in touch </h4>
                   <p>
                     <FontAwesomeIcon icon={faWhatsapp} />
                     &nbsp; Whatsapp us
@@ -68,6 +66,7 @@ function Footer() {
                     Contact
                   </Link>
                 </div>
+                <br />
               </Col>
             </Row>
           </div>
@@ -82,18 +81,9 @@ function Footer() {
               <div>Bengaluru | Hyderabad | New Delhi | Kolkata | Pune</div>
             </div>
           </div>
-          {/* <div className="col-md align-self-center text-center">
-            <h4>Consult our Designer</h4>
-            <div>
-              <Link href="/contact">
-                <button className="btn btn-outline-light rounded-pill px-5">
-                  Contact
-                </button>
-              </Link>
-            </div>
-          </div> */}
           <div className="col-md text-center p-3 align-self-center d-md-block d-none">
             <h3 className="mb-3">Links</h3>
+
             <div>
               <Link className="footer-links" href="/">
                 Home
@@ -114,6 +104,7 @@ function Footer() {
                 Contact
               </Link>
             </div>
+            <br />
           </div>
         </div>
       </div>
