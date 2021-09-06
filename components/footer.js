@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import { Row, Col } from "react-bootstrap";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Footer() {
   return (
     <footer className="bg-dark text-light">
@@ -10,19 +13,16 @@ function Footer() {
             <h4>Get in touch </h4>
             <br />
             <p>
-              Whatsapp us
+              <FontAwesomeIcon icon={faWhatsapp} />
+              &nbsp; Whatsapp us
               <br />
               +91 9632287903
               <br />
               <br />
-              Email Us
+              <FontAwesomeIcon icon={faEnvelope} />
+              &nbsp; Email Us
               <br />
               info@purpleworld.in
-              <br />
-              <br />
-              Website
-              <br />
-              purpleworld.in
             </p>
           </div>
           <div className="d-md-none d-block text-center">
@@ -33,18 +33,16 @@ function Footer() {
                   <h4>Get in touch </h4>
                   <br />
                   <p>
-                    Whatsapp us
+                    <FontAwesomeIcon icon={faWhatsapp} />
+                    &nbsp; Whatsapp us
                     <br />
                     +91 9632287903
                     <br className="d-sm-block d-none" />
                     <br />
-                    Email Us
+                    <FontAwesomeIcon icon={faEnvelope} />
+                    &nbsp; Email Us
                     <br />
                     info@purpleworld.in
-                    <br />
-                    Website
-                    <br />
-                    purpleworld.in
                   </p>
                 </div>
               </Col>
@@ -75,13 +73,16 @@ function Footer() {
           </div>
           <div className="col-md align-self-center text-center p-3">
             <h4>Visit Us </h4>
-            <p>#34, BTM Residency, Phase 2, Yelanahalli, Bengaluru - 560068</p>
+            <p>
+              No 531, Amarjyothi, Intermediate Ring Rd, Vyalikaval HBCS Layout,
+              Domlur, Bengaluru, Karnataka 560071
+            </p>
             <div className="d-block">
-              <h4 className="mb-3">We also Serve at:</h4>
+              <h4 className="mb-3">Cities we serve:</h4>
               <div>Hyderabad | New Delhi | Kolkata | Pune</div>
             </div>
           </div>
-          <div className="col-md align-self-center text-center">
+          {/* <div className="col-md align-self-center text-center">
             <h4>Consult our Designer</h4>
             <div>
               <Link href="/contact">
@@ -90,7 +91,7 @@ function Footer() {
                 </button>
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="col-md text-center p-3 align-self-center d-md-block d-none">
             <h3 className="mb-3">Links</h3>
             <div>

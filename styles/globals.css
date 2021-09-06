@@ -320,3 +320,30 @@ h5 {
 .service-text {
   color: gray;
 }
+
+.feedback {
+  font-size: large;
+  width: 450px;
+  margin: auto;
+}
+
+.testimonial {
+  height: 250px;
+}
+
+@media screen and (max-width: 576px) {
+  .testimonial {
+    height: 250px;
+  }
+  .feedback {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .testimonial {
+    height: 350px;
+  }
+  .feedback {
+    width: 100%;
+  }
+}
