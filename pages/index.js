@@ -8,11 +8,10 @@ import Testimonials from "../components/testimonials";
 import FAQs from "../components/faq";
 import Contact from "../components/contact";
 import Quote from "../components/quote";
-import { Alert, Col, Container, Image, Row } from "react-bootstrap";
+import { Alert, Carousel, Col, Container, Image, Row } from "react-bootstrap";
 import { useState } from "react";
 
 export default function Home() {
-  const [popup, setPopup] = useState(true);
   return (
     <div>
       <Head>
@@ -20,16 +19,39 @@ export default function Home() {
       </Head>
       <Main />
       <div>
-        <Alert
-          show={popup}
-          variant="primary"
-          className="quicksplained-popup px-5 text-center"
-          onClose={() => setPopup(false)}
-          dismissible
-          closeVariant="white"
-        >
-          <p className="text-black">Promo</p>
-          <div className="text-dark h3">Visit us for promo</div>
+        <Alert variant="primary" className="px-5 text-center">
+          <Carousel indicators={false} controls={false}>
+            <Carousel.Item className="promo text-black" interval={2500}>
+              <Carousel.Caption
+                className="align-middle"
+                style={{ bottom: "0 !important", top: "1.25rem" }}
+              >
+                <h3 className="fw-bold text-dark promo-type">
+                  Visit us for free design consultation
+                </h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item className="promo text-black" interval={2500}>
+              <Carousel.Caption
+                className="align-middle"
+                style={{ bottom: "0 !important", top: "1.25rem" }}
+              >
+                <h3 className="fw-bold text-dark promo-type">
+                  Book before 15th October to get complimentary Lounger Sofa
+                </h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item className="promo text-black" interval={2500}>
+              <Carousel.Caption
+                className="align-middle"
+                style={{ bottom: "0 !important", top: "1.25rem" }}
+              >
+                <h3 className="fw-bold text-dark promo-type">
+                  Price Match Guarantee
+                </h3>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
         </Alert>
       </div>
       <ValueProp />

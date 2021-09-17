@@ -110,7 +110,7 @@ function Footer() {
       </div>
       <hr />
       <div className="align-self-center text-center pb-3">
-        Purple World &copy;All rights reserved
+        Purple World Designtech Private Limited&copy; All rights reserved
       </div>
     </footer>
   );
