@@ -30,6 +30,12 @@ function About() {
               Our installation and execution team focuses on craftsmanship in
               every job they do. Each one has more than 5 years of experience.
             </p>
+            <h4>5 Years Warranty</h4>
+            <p className="rem-1">
+              {" "}
+              All our products come with 5 years warranty against manufacturing
+              defect.
+            </p>
           </div>
         </div>
         <div className="col-12 col-lg-6" data-aos="fade-up">

@@ -208,12 +208,18 @@ h5 {
 }
 
 .value-prop-image {
-  width: 50%;
+  width: 25%;
   height: 100%;
 }
 
 .rem-1 {
   color: gray;
+}
+
+@media screen and (max-width: 991px) {
+  .value-prop-image {
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -329,6 +335,16 @@ h5 {
 
 .testimonial {
   height: 250px;
+}
+
+.promo {
+  height: 120px;
+}
+
+@media screen and (max-width: 600px) {
+  .promo-type {
+    font-size: medium;
+  }
 }
 
 @media screen and (max-width: 576px) {
