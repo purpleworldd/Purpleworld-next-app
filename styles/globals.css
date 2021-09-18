@@ -154,7 +154,7 @@ h5 {
 
 .pw-head {
   text-shadow: 2px 2px #2c2b2b;
-  font-size: calc(1.625rem + 4.5vw);
+  font-size: calc(1.625rem + 2vw);
   line-height: 1.2;
   padding-bottom: 3rem;
 }
@@ -224,6 +224,10 @@ h5 {
   color: gray;
 }
 
+.masthead-content {
+  font-size: calc(1rem + 1.5vw);
+}
+
 @media screen and (max-width: 991px) {
   .value-prop-image {
     width: 50%;
@@ -248,7 +252,7 @@ h5 {
     padding-bottom: 1rem;
   }
   .masthead-content {
-    font-size: medium;
+    font-size: calc(1rem + 1.4vw);
   }
 }
 
@@ -344,58 +348,6 @@ h5 {
 .testimonial {
   height: 250px;
 }
-
-/* .promo {
-  height: 120px;
-}
-
-.promo-type {
-  color: rgb(255, 249, 166);
-  font-size: 2rem;
-  width: 100%;
-}
-
-.alert-promo {
-  background: linear-gradient(rgb(255, 230, 0), 12%, rgb(179, 74, 126));
-  background: linear-gradient(rgb(138, 17, 132), rgb(179, 74, 126));
-  background: rgb(179, 74, 126);
-  padding: 0 !important;
-}
-
-.promo-tag {
-  background-color: blue;
-  width: 25px;
-  height: 170px;
-  position: absolute;
-  transform: skew(-45deg);
-  z-index: 100;
-}
-
-.promo-text {
-  position: absolute;
-  transform: rotate(-45deg);
-  color: antiquewhite;
-  height: auto;
-  width: auto;
-}
-
-.promo-text-outer-div {
-  position: absolute;
-  transform: translate(31px, 31px);
-  z-index: 101;
-}
-
-@media screen and (max-width: 1252px) {
-  .promo-type {
-    font-size: 1.6rem;
-  }
-}
-@media screen and (max-width: 600px) {
-  .promo-type {
-    font-size: 1.1rem;
-    font-weight: bold;
-  }
-} */
 
 @media screen and (max-width: 576px) {
   .testimonial {
