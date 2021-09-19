@@ -3,7 +3,7 @@ import { Row, Col, Image, Container } from "react-bootstrap";
 function ValueProp() {
   return (
     <Container className="text-center" data-aos="fade-up">
-      <h1 className="pt-5 fw-bold">Our Core</h1>
+      <h1 className="pt-4 fw-bold">Our Core</h1>
       <Row className="pb-5">
         <Col xs={4} className="d-flex justify-content-center">
           <Image

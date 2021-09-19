@@ -13,7 +13,7 @@ function Footer() {
             <h4 className="py-2">Get in touch </h4>
             <p>
               <FontAwesomeIcon icon={faWhatsapp} />
-              &nbsp; Whatsapp us
+              &nbsp; Whatsapp
               <br />
               +91 9632287903
               <br />
@@ -32,7 +32,7 @@ function Footer() {
                   <h4 className="pb-2">Get in touch </h4>
                   <p>
                     <FontAwesomeIcon icon={faWhatsapp} />
-                    &nbsp; Whatsapp us
+                    &nbsp; Whatsapp
                     <br />
                     +91 9632287903
                     <br className="d-sm-block d-none" />
