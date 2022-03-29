@@ -26,7 +26,7 @@ function Main() {
           <Carousel.Caption>
             <h1 className="fw-bolder pw-head">Purple World</h1>
             <p className="masthead-content">
-              Book before 15th October to get complimentary Lounger Sofa
+              Book now to get complimentary Lounger Sofa
             </p>
           </Carousel.Caption>
         </Carousel.Item>
