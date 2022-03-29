@@ -15,7 +15,7 @@ function Footer() {
               <FontAwesomeIcon icon={faWhatsapp} />
               &nbsp; Whatsapp
               <br />
-              +91 9632287903
+              +91 9611222702
               <br />
               <br />
               <FontAwesomeIcon icon={faEnvelope} />
@@ -34,7 +34,7 @@ function Footer() {
                     <FontAwesomeIcon icon={faWhatsapp} />
                     &nbsp; Whatsapp
                     <br />
-                    +91 9632287903
+                    +91 9611222702
                     <br className="d-sm-block d-none" />
                     <br />
                     <FontAwesomeIcon icon={faEnvelope} />
@@ -71,11 +71,6 @@ function Footer() {
             </Row>
           </div>
           <div className="col-md align-self-center text-center p-3">
-            <h4>Visit Us </h4>
-            <p>
-              No 531, Amarjyothi, Intermediate Ring Rd, Vyalikaval HBCS Layout,
-              Domlur, Bengaluru, Karnataka 560071
-            </p>
             <div className="d-block">
               <h4 className="mb-3">Cities we serve:</h4>
               <div>Bengaluru | Hyderabad | New Delhi | Kolkata | Pune</div>
